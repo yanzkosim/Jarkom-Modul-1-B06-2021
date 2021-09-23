@@ -55,7 +55,7 @@ Screenshot :
 
 Jawab : 
 ```
-Expression : “ mysql.query contains "select" "
+Expression : “ mysql.query matches "select" "
 ```
 
 Screenshot : 
