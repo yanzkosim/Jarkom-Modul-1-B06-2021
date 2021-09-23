@@ -60,7 +60,7 @@ Expression : “ mysql.query matches "select" "
 
 Screenshot : 
 
-![select](https://github.com/yanzkosim/Jarkom-Modul-1-B06-2021/blob/main/Screenshots/4.1.png)
+![select](https://github.com/yanzkosim/Jarkom-Modul-1-B06-2021/blob/main/Screenshots/4.png)
 
 ### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
 
