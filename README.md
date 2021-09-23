@@ -55,12 +55,12 @@ Screenshot :
 
 Jawab : 
 ```
-Expression : “ mysql.query matches "select" "
+Expression : “ mysql.query contains "select" "
 ```
 
 Screenshot : 
 
-![select](https://github.com/yanzkosim/Jarkom-Modul-1-B06-2021/blob/main/Screenshots/4.png)
+![select](https://github.com/yanzkosim/Jarkom-Modul-1-B06-2021/blob/main/Screenshots/4.1.png)
 
 ### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
 
@@ -155,3 +155,51 @@ Screenshot :
 ![Wanted.pdf](https://github.com/yanzkosim/Jarkom-Modul-1-B06-2021/blob/main/Screenshots/10.3.png)
 
 # Capture Filter
+
+### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+```
+Digunakan expression capture filter
+" src port 80 "
+```
+
+Screenshot :
+
+![Result](https://github.com/yanzkosim/Jarkom-Modul-1-B06-2021/blob/main/Screenshots/11.png)
+
+### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+```
+Digunakan expression capture filter
+"  port 21 "
+```
+
+Screenshot :
+
+### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+```
+Digunakan expression capture filter
+"  dst port 443 "
+```
+
+Screenshot :
+
+![Result](https://github.com/yanzkosim/Jarkom-Modul-1-B06-2021/blob/main/Screenshots/13.png)
+
+### 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+```
+Digunakan expression capture filter
+" dst host kemenag.go.id "
+```
+
+Screenshot :
+
+![Result](https://github.com/yanzkosim/Jarkom-Modul-1-B06-2021/blob/main/Screenshots/14.png)
+
+### 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+```
+Digunakan expression capture filter
+"  src host 192.168.100.8 "
+```
+
+Screenshot :
+
+![Result](https://github.com/yanzkosim/Jarkom-Modul-1-B06-2021/blob/main/Screenshots/15.png)
