@@ -174,6 +174,8 @@ Digunakan expression capture filter
 
 Screenshot :
 
+![Result](https://github.com/yanzkosim/Jarkom-Modul-1-B06-2021/blob/main/Screenshots/12.png)
+
 ### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 ```
 Digunakan expression capture filter
